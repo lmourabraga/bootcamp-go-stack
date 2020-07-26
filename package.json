@@ -4,5 +4,8 @@
   "main": "index.js",
   "repository": "git@github.com:lmourabraga/bootcamp-go-stack.git",
   "author": "Luã Braga <ldemourabraga@gmail.com>",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^0.19.2"
+  }
 }
