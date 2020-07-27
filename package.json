@@ -6,6 +6,7 @@
   "author": "Luã Braga <ldemourabraga@gmail.com>",
   "license": "MIT",
   "dependencies": {
-    "axios": "^0.19.2"
+    "axios": "^0.19.2",
+    "uuidv4": "^6.2.0"
   }
 }
