@@ -2,7 +2,7 @@ import styled from 'styled-components';
 import FeatherIcon from 'react-native-vector-icons/Feather';
 
 export const Container = styled.View`
-  width: 100%:
+  width: 100%;
   height: 60px;
   padding: 0 16px;
   background: #232129;
@@ -11,7 +11,6 @@ export const Container = styled.View`
 
   flex-direction: row;
   align-items: center;
-
 `;
 
 export const TextInput = styled.TextInput`
