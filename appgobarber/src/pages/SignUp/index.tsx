@@ -59,8 +59,8 @@ const SignUp: React.FC = () => {
         await api.post('/users', data);
 
         Alert.alert(
-          'Cadastro realizado com sucesso!',
-          'Você já pode fazer login na aplicação.',
+          'Successful registration!',
+          'Now you can log in to the app',
         );
 
         navigation.goBack();
@@ -82,7 +82,7 @@ const SignUp: React.FC = () => {
         );
       }
     },
-    []);
+    [navigation]);
 
   return (
     <>
