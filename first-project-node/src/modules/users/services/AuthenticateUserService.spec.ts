@@ -31,6 +31,7 @@ describe('AuthenticateUser', () => {
         });
 
         expect(response).toHaveProperty('token');
+        expect(response.user).toEqual(user);
     });
 
 });
